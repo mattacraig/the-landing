@@ -1,14 +1,21 @@
-// Variables go here
+// Font Stack
 $font-primary: 'Lato', sans-serif;
 $font-secondary: 'Open Sans', sans-serif;
+
+// Text Colors
+$section-heading-color: #333;
 $cta: #00b09c;
 $copy-color: #888;
 $bg-secondary: #f8f8f8;
 $white: #fff;
-$hover: .3s color;
-$hover-bg: .3s background;
 $link-trans: rgba(255, 255, 255, .5);
 $cta-light: rgb(0, 205, 153);
+
+// Transitions
+$hover: .3s color;
+$hover-bg: .3s background;
+
+// Font-weights
 $light: 300;
 $medium: 400;
 $extra-bold: 900;

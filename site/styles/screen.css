@@ -51,6 +51,40 @@ header, section {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.one, .two, .three {
+  height: 50vh; }
+
+.one, .two {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+section h2 {
+  font-size: 3.12875rem;
+  font-weight: 900;
+  padding-bottom: .8125rem; }
+
+section h3 {
+  color: #333;
+  font-size: 2.01375em;
+  font-weight: 300;
+  padding-bottom: 3.3125rem; }
+
+section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.75rem;
+  max-width: 70vw;
+  text-align: center; }
+
+section h3, section p {
+  color: #888; }
+
 a {
   text-decoration: none; }
 
