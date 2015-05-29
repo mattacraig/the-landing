@@ -1,0 +1,27 @@
+// Global CSS goes here
+body {
+  position: relative;
+}
+
+header,
+nav,
+.main-nav,
+section,
+footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  font-family: $font-primary;
+
+}
+
+header,
+section {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,79 @@
+@import '../base/variables';
+
+header {
+  align-items: center;
+  background-image: url('../../site/images/Layer-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+}
+
+nav {
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  width: 80%;
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav li a {
+  color: $link-trans;
+  font-weight: $light;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: $hover;
+}
+
+.main-nav li a:hover {
+  color: $white;
+}
+
+.header-content {
+  text-align: center;
+}
+
+header h1,
+header h3 {
+  color: $white;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: $extra-bold;
+  padding-bottom: .875rem;
+}
+
+header h3 {
+  font-size: 2.625rem;
+  font-weight: $light;
+  padding-bottom: 2.875rem;
+}
+
+.cta {
+  background: $cta;
+  border-radius: .3125rem;
+  color: $white;
+  display: inline-block;
+  height: 3.375rem;
+  line-height: 3.375rem;
+  transition: $hover-bg;
+  width: 12.5rem;
+}
+
+.cta:hover {
+  background: $cta-light;
+}
