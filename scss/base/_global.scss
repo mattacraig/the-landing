@@ -3,11 +3,12 @@ body {
   position: relative;
 }
 
+.main-nav,
+.row,
+footer,
 header,
 nav,
-.main-nav,
-section,
-footer {
+section {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -22,8 +23,12 @@ section {
   flex-direction: column;
 }
 
+
+// ======================== //
+//   Basic Section Syles    //
+// ======================== //
+
 .one,
-.two,
 .three {
   height: 50vh;
 }
@@ -34,6 +39,10 @@ section {
   justify-content: center;
 }
 
+.two {
+  height: 60vh;
+}
+
 section h2 {
   font-size: 3.12875rem;
   font-weight: $extra-bold;
@@ -41,17 +50,22 @@ section h2 {
 }
 
 section h3 {
-  color: $section-heading-color;
   font-size: 2.01375em;
   font-weight: $light;
   padding-bottom: 3.3125rem;
 }
 
+section h3,
+.col h3 {
+  color: $section-heading-color;
+}
+
 section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
-  line-height: 1.75rem;
-  max-width: 70vw;
+  letter-spacing: 1px;
+  line-height: 1.75em;
+  max-width: 40vw;
   text-align: center;
 }
 
@@ -62,4 +76,28 @@ section p {
 
 a {
   text-decoration: none;
+}
+
+
+// ======================== //
+//   Column Syles           //
+// ======================== //
+
+.row {
+  width: 80vw;
+}
+
+.col {
+  margin-right: 4rem;
+  text-align: center;
+}
+
+.col h3 {
+  font-weight: $extra-bold;
+  padding-bottom: 2.125rem;
+  padding-top: 2.125rem;
+}
+
+.col p {
+  font-size: 1rem;
 }

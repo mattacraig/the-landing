@@ -1,0 +1,15 @@
+.two {
+  background: $bg-secondary;
+}
+
+.two .fa {
+  background: $white;
+  border: $border-color;
+  border-radius: 50%;
+  color: $cta;
+  display: inline-block;
+  font-size: 2.625em;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  width: 6.25rem;
+}

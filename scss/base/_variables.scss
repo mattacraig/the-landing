@@ -2,14 +2,15 @@
 $font-primary: 'Lato', sans-serif;
 $font-secondary: 'Open Sans', sans-serif;
 
-// Text Colors
-$section-heading-color: #333;
-$cta: #00b09c;
-$copy-color: #888;
+// Colors
 $bg-secondary: #f8f8f8;
-$white: #fff;
-$link-trans: rgba(255, 255, 255, .5);
+$border-color: 2px solid rgba(136, 136, 136, .2);
+$cta: #00b09c;
 $cta-light: rgb(0, 205, 153);
+$copy-color: #888;
+$link-trans: rgba(255, 255, 255, .5);
+$section-heading-color: #333;
+$white: #fff;
 
 // Transitions
 $hover: .3s color;
