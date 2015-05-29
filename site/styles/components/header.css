@@ -25,7 +25,18 @@ nav {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: .3s background, .3s color;
+          transition: .3s background, .3s color; }
+
+nav.scrolled {
+  background: #00b09c; }
+
+nav.scrolled .main-nav li a {
+  color: #fff; }
+
+nav.scrolled .main-nav li a:hover {
+  color: #333; }
 
 .main-nav {
   -webkit-box-align: center;

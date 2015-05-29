@@ -17,6 +17,19 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  transition: $hover-bg, $hover;
+}
+
+nav.scrolled {
+  background: $cta;
+}
+
+nav.scrolled .main-nav li a {
+  color: $white;
+}
+
+nav.scrolled .main-nav li a:hover {
+  color: $section-heading-color;
 }
 
 .main-nav {

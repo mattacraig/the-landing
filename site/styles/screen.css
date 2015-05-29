@@ -65,7 +65,7 @@ header, section {
           justify-content: center; }
 
 .two {
-  height: 60vh; }
+  height: 70vh; }
 
 section h2 {
   font-size: 3.12875rem;
@@ -98,7 +98,8 @@ a {
   width: 80vw; }
 
 .col {
-  margin-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center; }
 
 .col h3 {
@@ -136,7 +137,18 @@ nav {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: .3s background, .3s color;
+          transition: .3s background, .3s color; }
+
+nav.scrolled {
+  background: #00b09c; }
+
+nav.scrolled .main-nav li a {
+  color: #fff; }
+
+nav.scrolled .main-nav li a:hover {
+  color: #333; }
 
 .main-nav {
   -webkit-box-align: center;
