@@ -71,7 +71,7 @@ h1, header h3 {
 .one, .three {
   height: 50vh; }
 
-.one, .two, .three {
+.one, .two, .three, .row {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -115,6 +115,7 @@ a {
   width: 80vw; }
 
 .col {
+  max-width: 270px;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center; }
@@ -231,8 +232,9 @@ header h3 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.three h1 {
-  padding-bottom: 2.25rem; }
+.three h2 {
+  padding-bottom: 2.25rem;
+  color: #fff; }
 
 .cta-secondary {
   border: 2px solid #fff;

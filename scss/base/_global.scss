@@ -55,7 +55,8 @@ header h3 {
 
 .one,
 .two,
-.three {
+.three,
+.row {
   align-items: center;
   justify-content: center;
 }
@@ -109,6 +110,7 @@ a {
 }
 
 .col {
+  max-width: 270px;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
