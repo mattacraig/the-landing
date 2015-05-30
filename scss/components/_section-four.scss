@@ -1,0 +1,68 @@
+
+.four {
+  height: 90vh;
+}
+
+.portfolio-row {
+  width: 100%;
+}
+
+.portfolio-row {
+  margin-bottom: 20px;
+}
+
+.portfolio-row .portfolio-col {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.portfolio-col a {
+  background: $cta-trans;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: $hover-op;
+  width: 100%;
+}
+
+.portfolio-col a:hover {
+  opacity: 1;
+}
+
+.portfolio-col a h2,
+.portfolio-col a h3 {
+  color: $white;
+}
+
+
+.portfolio-col {
+  width: 300px;
+}
+
+.col-one {
+  background: url('../../site/images/Layer-16.png');
+  width: 620px;
+}
+
+.col-two {
+  background: url('../../site/images/Layer-17.png');
+}
+
+.col-three {
+  background: url('../../site/images/Layer-18.png');
+}
+
+.col-four {
+  background: url('../../site/images/Layer-19.png');
+}
+
+.col-five {
+  background: url('../../site/images/Layer-20.png');
+}

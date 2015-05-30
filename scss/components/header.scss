@@ -16,8 +16,9 @@ nav {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%;
   transition: $hover-bg, $hover;
+  width: 100%;
+  z-index: 150;
 }
 
 nav.scrolled {

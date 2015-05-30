@@ -7,6 +7,7 @@ $bg-secondary: #f8f8f8;
 $border-color: 2px solid rgba(136, 136, 136, .2);
 $cta: #00b09c;
 $cta-light: rgb(0, 205, 153);
+$cta-trans: rgba(0, 176, 156, .8);
 $copy-color: #888;
 $link-trans: rgba(255, 255, 255, .5);
 $section-heading-color: #333;
@@ -15,6 +16,7 @@ $white: #fff;
 // Transitions
 $hover: .3s color;
 $hover-bg: .3s background;
+$hover-op: .3s opacity;
 
 // Font-weights
 $light: 300;

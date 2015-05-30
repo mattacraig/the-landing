@@ -8,7 +8,9 @@ body {
 footer,
 header,
 nav,
-section {
+section,
+.portfolio-row,
+.portfolio-col a {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -56,7 +58,10 @@ header h3 {
 .one,
 .two,
 .three,
-.row {
+.four,
+.row,
+.portfolio-row,
+.portfolio-col a {
   align-items: center;
   justify-content: center;
 }

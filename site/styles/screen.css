@@ -34,7 +34,7 @@ table {
 body {
   position: relative; }
 
-.main-nav, .row, footer, header, nav, section {
+.main-nav, .row, footer, header, nav, section, .portfolio-row, .portfolio-col a {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -71,7 +71,7 @@ h1, header h3 {
 .one, .three {
   height: 50vh; }
 
-.one, .two, .three, .row {
+.one, .two, .three, .four, .row, .portfolio-row, .portfolio-col a {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -156,9 +156,10 @@ nav {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%;
   -webkit-transition: .3s background, .3s color;
-          transition: .3s background, .3s color; }
+          transition: .3s background, .3s color;
+  width: 100%;
+  z-index: 150; }
 
 nav.scrolled {
   background: #00b09c; }
@@ -243,3 +244,61 @@ header h3 {
 .cta-secondary:hover {
   background: #fff;
   color: #333; }
+
+.four {
+  height: 90vh; }
+
+.portfolio-row {
+  width: 100%; }
+
+.portfolio-row {
+  margin-bottom: 20px; }
+
+.portfolio-row .portfolio-col {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-right: 20px;
+  position: relative; }
+
+.portfolio-col a {
+  background: rgba(0, 176, 156, 0.8);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  -webkit-transition: .3s opacity;
+          transition: .3s opacity;
+  width: 100%; }
+
+.portfolio-col a:hover {
+  opacity: 1; }
+
+.portfolio-col a h2, .portfolio-col a h3 {
+  color: #fff; }
+
+.portfolio-col {
+  width: 300px; }
+
+.col-one {
+  background: url('../../site/images/Layer-16.png');
+  width: 620px; }
+
+.col-two {
+  background: url('../../site/images/Layer-17.png'); }
+
+.col-three {
+  background: url('../../site/images/Layer-18.png'); }
+
+.col-four {
+  background: url('../../site/images/Layer-19.png'); }
+
+.col-five {
+  background: url('../../site/images/Layer-20.png'); }
