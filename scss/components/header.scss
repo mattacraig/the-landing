@@ -59,32 +59,19 @@ nav.scrolled .main-nav li a:hover {
   text-align: center;
 }
 
-header h1,
-header h3 {
-  color: $white;
-}
-
 header h1 {
-  font-size: 4rem;
   font-weight: $extra-bold;
   padding-bottom: .875rem;
 }
 
 header h3 {
-  font-size: 2.625rem;
+  font-size: 1.75em;
   font-weight: $light;
   padding-bottom: 2.875rem;
 }
 
 .cta {
   background: $cta;
-  border-radius: .3125rem;
-  color: $white;
-  display: inline-block;
-  height: 3.375rem;
-  line-height: 3.375rem;
-  transition: $hover-bg;
-  width: 12.5rem;
 }
 
 .cta:hover {

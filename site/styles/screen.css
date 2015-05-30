@@ -51,10 +51,27 @@ header, section {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+h1 {
+  font-size: 2.625em;
+  font-weight: 900; }
+
+h1, header h3 {
+  color: #fff; }
+
+.cta, .cta-secondary {
+  border-radius: .3125rem;
+  color: #fff;
+  display: inline-block;
+  height: 3.375rem;
+  line-height: 3.375rem;
+  -webkit-transition: .3s background, .3s color;
+          transition: .3s background, .3s color;
+  width: 12.5rem; }
+
 .one, .three {
   height: 50vh; }
 
-.one, .two {
+.one, .two, .three {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -65,15 +82,15 @@ header, section {
           justify-content: center; }
 
 .two {
-  height: 70vh; }
+  height: 60vh; }
 
 section h2 {
-  font-size: 3.12875rem;
+  font-size: 2.12875rem;
   font-weight: 900;
   padding-bottom: .8125rem; }
 
 section h3 {
-  font-size: 2.01375em;
+  font-size: 1.01375em;
   font-weight: 300;
   padding-bottom: 3.3125rem; }
 
@@ -82,7 +99,7 @@ section h3, .col h3 {
 
 section p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.125em;
   letter-spacing: 1px;
   line-height: 1.75em;
   max-width: 40vw;
@@ -103,12 +120,13 @@ a {
   text-align: center; }
 
 .col h3 {
+  font-size: 1.62187em;
   font-weight: 900;
   padding-bottom: 2.125rem;
   padding-top: 2.125rem; }
 
 .col p {
-  font-size: 1rem; }
+  font-size: .875em; }
 
 header {
   -webkit-box-align: center;
@@ -179,29 +197,17 @@ nav.scrolled .main-nav li a:hover {
 .header-content {
   text-align: center; }
 
-header h1, header h3 {
-  color: #fff; }
-
 header h1 {
-  font-size: 4rem;
   font-weight: 900;
   padding-bottom: .875rem; }
 
 header h3 {
-  font-size: 2.625rem;
+  font-size: 1.75em;
   font-weight: 300;
   padding-bottom: 2.875rem; }
 
 .cta {
-  background: #00b09c;
-  border-radius: .3125rem;
-  color: #fff;
-  display: inline-block;
-  height: 3.375rem;
-  line-height: 3.375rem;
-  -webkit-transition: .3s background;
-          transition: .3s background;
-  width: 12.5rem; }
+  background: #00b09c; }
 
 .cta:hover {
   background: #00cd99; }
@@ -219,3 +225,19 @@ header h3 {
   height: 6.25rem;
   line-height: 6.25rem;
   width: 6.25rem; }
+
+.three {
+  background: url('../../site/images/Layer-2-copy-3.png');
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.three h1 {
+  padding-bottom: 2.25rem; }
+
+.cta-secondary {
+  border: 2px solid #fff;
+  text-align: center; }
+
+.cta-secondary:hover {
+  background: #fff;
+  color: #333; }

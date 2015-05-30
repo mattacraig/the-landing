@@ -1,0 +1,19 @@
+.three {
+  background: url('../../site/images/Layer-2-copy-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.three h1 {
+  padding-bottom: 2.25rem;
+}
+
+.cta-secondary {
+  border: 2px solid $white;
+  text-align: center;
+}
+
+.cta-secondary:hover {
+  background: $white;
+  color: $section-heading-color;
+}
