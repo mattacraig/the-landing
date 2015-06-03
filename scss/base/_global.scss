@@ -10,7 +10,8 @@ header,
 nav,
 section,
 .portfolio-row,
-.portfolio-col a {
+.portfolio-col a,
+.footer-container {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -24,6 +25,22 @@ header,
 section {
   flex-direction: column;
 }
+
+nav,
+footer {
+  height: 3.75rem;
+}
+
+.main-nav,
+.footer-container {
+  width: 80%;
+}
+
+.main-nav li:first-child,
+.footer-container img {
+  margin-right: auto;
+}
+
 
 h1 {
   font-size: 2.625em;
@@ -56,6 +73,7 @@ header h3 {
   height: 50vh;
 }
 
+nav,
 .one,
 .two,
 .three,
@@ -63,7 +81,8 @@ header h3 {
 .six,
 .row,
 .portfolio-row,
-.portfolio-col a {
+.portfolio-col a,
+footer {
   align-items: center;
   justify-content: center;
 }

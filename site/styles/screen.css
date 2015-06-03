@@ -34,7 +34,7 @@ table {
 body {
   position: relative; }
 
-.main-nav, .row, footer, header, nav, section, .portfolio-row, .portfolio-col a {
+.main-nav, .row, footer, header, nav, section, .portfolio-row, .portfolio-col a, .footer-container {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -50,6 +50,15 @@ header, section {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
+
+nav, footer {
+  height: 3.75rem; }
+
+.main-nav, .footer-container {
+  width: 80%; }
+
+.main-nav li:first-child, .footer-container img {
+  margin-right: auto; }
 
 h1 {
   font-size: 2.625em;
@@ -71,7 +80,7 @@ h1, header h3 {
 .one, .three, .six {
   height: 50vh; }
 
-.one, .two, .three, .four, .six, .row, .portfolio-row, .portfolio-col a {
+nav, .one, .two, .three, .four, .six, .row, .portfolio-row, .portfolio-col a, footer {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -148,15 +157,6 @@ header {
           justify-content: center; }
 
 nav {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   left: 0;
   position: fixed;
   top: 0;
@@ -309,3 +309,10 @@ header h3 {
   background: url('../../site/images/Layer-2-copy-5.png');
   background-repeat: no-repeat;
   background-size: cover; }
+
+footer {
+  background: #333; }
+
+footer small {
+  color: #888;
+  font-size: .8125rem; }
