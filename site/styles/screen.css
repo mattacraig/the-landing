@@ -315,11 +315,11 @@ header h3 {
   height: 60vh; }
 
 .five-wrapper {
-  width: 80vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  width: 80vw; }
 
 .five form {
   -webkit-box-orient: vertical;
@@ -329,7 +329,7 @@ header h3 {
           flex-direction: column; }
 
 .five form input, .five form textarea {
-  border: none;
+  border: 0;
   border-radius: 5px; }
 
 .five form input[type="text"], .five form input[type="email"] {
@@ -343,10 +343,11 @@ header h3 {
 
 .five form textarea {
   height: 12.5625em;
-  margin-top: 1.3125rem;
   margin-bottom: 1.25rem;
+  margin-top: 1.3125rem;
   padding-left: 1.625rem;
   padding-top: 1.25rem;
+  resize: none;
   width: 38.375rem; }
 
 .five form .cta {
