@@ -5,17 +5,14 @@
 
 .portfolio-row {
   width: 100%;
-}
-
-.portfolio-row {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .portfolio-row .portfolio-col {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-  margin-right: 20px;
+  height: 18.75rem;
+  margin-right: 1.25rem;
   position: relative;
 }
 
@@ -43,12 +40,12 @@
 
 
 .portfolio-col {
-  width: 300px;
+  width: 18.75rem;
 }
 
 .col-one {
   background: url('../../site/images/Layer-16.png');
-  width: 620px;
+  width: 38.75rem;
 }
 
 .col-two {

@@ -51,7 +51,8 @@ header h3 {
 // ======================== //
 
 .one,
-.three {
+.three,
+.six {
   height: 50vh;
 }
 
@@ -59,6 +60,7 @@ header h3 {
 .two,
 .three,
 .four,
+.six,
 .row,
 .portfolio-row,
 .portfolio-col a {
@@ -99,6 +101,12 @@ section p {
 section h3,
 section p {
   color: $copy-color;
+}
+
+.three h2,
+.six h2 {
+  padding-bottom: 2.25rem;
+  color: $white;
 }
 
 a {
