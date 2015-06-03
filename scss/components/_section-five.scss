@@ -48,5 +48,77 @@
 
 .five form .cta {
   display: block;
-  margin-left: 38.375rem - 10.7; //width of textarea minus magic number 
+  margin-left: 38.375rem - 10.7; //width of textarea minus magic number
+}
+
+.contact-info {
+  color: $copy-color;
+  line-height: 1.5rem;
+  padding-left: 3.75rem;
+}
+
+.contact-info .contact li a {
+  color: $copy-color;
+  transition: $hover;
+}
+
+.contact-info .contact li a:hover {
+  color: $section-heading-color;
+}
+
+.contact-info ul li {
+  font-size: .875rem;
+}
+
+.contact-info h4 {
+  color: $section-heading-color;
+  font-weight: 900;
+  padding-bottom: 1.3125rem;
+}
+
+.contact-info ul {
+  padding-bottom: 2.125rem;
+}
+
+.contact-info .fa {
+  border: 2px solid $copy-color;
+  border-radius: 50%;
+  color: $copy-color;
+  font-size: 1.3rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+  margin-right: 1.0625rem;
+  text-align: center;
+  transition: $hover-border, $hover;
+  width: 2.625rem;
+}
+
+.contact-info .fa:hover {
+  border: 2px solid;
+}
+
+
+.fa-facebook:hover {
+  color: $facebook;
+}
+
+.fa-twitter:hover {
+  color: $twitter;
+}
+
+.fa-dribbble:hover {
+  color: $dribbble;
+}
+
+.fa-behance:hover {
+  color: $behance;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: $placeholder-color;
+  font-family: $font-primary;
+  font-size: .875rem;
+  letter-spacing: 1px;
+  font-weight: 300;
 }

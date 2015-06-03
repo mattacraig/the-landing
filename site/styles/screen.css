@@ -34,7 +34,7 @@ table {
 body {
   position: relative; }
 
-.main-nav, .row, footer, header, nav, section, .five-wrapper, .portfolio-row, .portfolio-col a, .footer-container {
+.main-nav, .row, footer, header, nav, section, .five-wrapper, .portfolio-row, .portfolio-col a, .social-icons, .footer-container {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -352,6 +352,65 @@ header h3 {
 .five form .cta {
   display: block;
   margin-left: 27.675rem; }
+
+.contact-info {
+  color: #888;
+  line-height: 1.5rem;
+  padding-left: 3.75rem; }
+
+.contact-info .contact li a {
+  color: #888;
+  -webkit-transition: .3s color;
+          transition: .3s color; }
+
+.contact-info .contact li a:hover {
+  color: #333; }
+
+.contact-info ul li {
+  font-size: .875rem; }
+
+.contact-info h4 {
+  color: #333;
+  font-weight: 900;
+  padding-bottom: 1.3125rem; }
+
+.contact-info ul {
+  padding-bottom: 2.125rem; }
+
+.contact-info .fa {
+  border: 2px solid #888;
+  border-radius: 50%;
+  color: #888;
+  font-size: 1.3rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+  margin-right: 1.0625rem;
+  text-align: center;
+  -webkit-transition: .3s border, .3s color;
+          transition: .3s border, .3s color;
+  width: 2.625rem; }
+
+.contact-info .fa:hover {
+  border: 2px solid; }
+
+.fa-facebook:hover {
+  color: #3b5998; }
+
+.fa-twitter:hover {
+  color: #4099ff; }
+
+.fa-dribbble:hover {
+  color: #c73b6f; }
+
+.fa-behance:hover {
+  color: #1769ff; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc;
+  font-family: 'Lato', sans-serif;
+  font-size: .875rem;
+  letter-spacing: 1px;
+  font-weight: 300; }
 
 .six {
   background: url('../../site/images/Layer-2-copy-5.png');
