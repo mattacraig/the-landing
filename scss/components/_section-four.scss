@@ -50,6 +50,7 @@
 
 .col-two {
   background: url('../../site/images/Layer-17.png');
+  margin-right: 0;
 }
 
 .col-three {
@@ -68,12 +69,11 @@
 @media screen and (max-width: 1366px) {
 
   .portfolio-row {
-    flex-flow: wrap;
+    height: auto;
   }
 
   .portfolio-row .portfolio-col {
     flex-grow: 1;
-    margin: 0;
   }
 
   .portfolio-col a {
@@ -81,10 +81,33 @@
     height: 30%;
     left: 0;
     opacity: 1;
+    padding: 1rem 0;
   }
 
   .portfolio-col a h3 {
     padding: 0;
+  }
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .four {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .portfolio-row {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .portfolio-col {
+    flex-grow: 2;
+    margin-bottom: 1rem;
+    width: 80vw;
   }
 
 }
