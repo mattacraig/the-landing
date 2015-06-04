@@ -23,6 +23,13 @@
 .five form textarea {
   border: 0;
   border-radius: 5px;
+  outline: none;
+  transition: $focus-transition;
+}
+
+.five form input:focus,
+.five form textarea:focus {
+  box-shadow: 0 0 5px $cta;
 }
 
 .five form input[type="text"],
