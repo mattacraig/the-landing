@@ -137,6 +137,38 @@ a {
 }
 
 
+@media screen and (max-width: 1366px) {
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    height: auto;
+    padding: 4.4375rem 0;
+  }
+
+  .one p {
+    min-width: 80vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ======================== //
 //   Column Syles           //
 // ======================== //
@@ -161,4 +193,23 @@ a {
 
 .col p {
   font-size: .875em;
+}
+
+
+@media screen and (max-width: 1366px) {
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    padding-bottom: 4rem;
+    max-width: 100vw;
+  }
+
+  .col p {
+    max-width: 80vw;
+  }
+
+
 }

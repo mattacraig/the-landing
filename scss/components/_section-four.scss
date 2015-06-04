@@ -4,8 +4,8 @@
 }
 
 .portfolio-row {
-  width: 100%;
   margin-bottom: 1.25rem;
+  width: 100%;
 }
 
 .portfolio-row .portfolio-col {
@@ -24,7 +24,7 @@
   opacity: 0;
   position: absolute;
   text-align: center;
-  top: 0;
+  // top: 0;
   transition: $hover-op;
   width: 100%;
 }
@@ -62,4 +62,29 @@
 
 .col-five {
   background: url('../../site/images/Layer-20.png');
+}
+
+
+@media screen and (max-width: 1366px) {
+
+  .portfolio-row {
+    flex-flow: wrap;
+  }
+
+  .portfolio-row .portfolio-col {
+    flex-grow: 1;
+    margin: 0;
+  }
+
+  .portfolio-col a {
+    bottom: 0;
+    height: 30%;
+    left: 0;
+    opacity: 1;
+  }
+
+  .portfolio-col a h3 {
+    padding: 0;
+  }
+
 }
