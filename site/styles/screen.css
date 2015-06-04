@@ -328,14 +328,16 @@ header h3 {
       -ms-flex-direction: column;
           flex-direction: column; }
 
-.five form input, .five form textarea {
-  border: 0;
-  border-radius: 5px;
-  outline: none;
+.five form input[type="text"], .five form input[type="email"], .five form textarea {
   -webkit-transition: .3s box-shadow;
           transition: .3s box-shadow; }
 
-.five form input:focus, .five form textarea:focus {
+.five form input, .five form textarea {
+  border: 0;
+  border-radius: 5px;
+  outline: none; }
+
+.five form input[type="text"]:focus, .five form input[type="email"]:focus, .five form textarea:focus {
   box-shadow: 0 0 5px #00b09c; }
 
 .five form input[type="text"], .five form input[type="email"] {
