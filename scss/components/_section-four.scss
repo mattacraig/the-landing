@@ -68,12 +68,17 @@
 
 @media screen and (max-width: 1366px) {
 
+  .four {
+    height: auto;
+  }
+
   .portfolio-row {
     height: auto;
   }
 
   .portfolio-row .portfolio-col {
     flex-grow: 1;
+    margin-right: 0;
   }
 
   .portfolio-col a {
@@ -95,7 +100,6 @@
 
   .four {
     display: block;
-    height: auto;
     text-align: center;
   }
 

@@ -23,6 +23,11 @@ section,
 
 }
 
+input,
+textarea {
+  font-family: $font-primary;
+}
+
 header,
 section {
   flex-direction: column;
@@ -89,6 +94,7 @@ nav,
 footer {
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .two {
@@ -154,6 +160,18 @@ a {
   }
 
 }
+
+
+@media screen and (max-width: 830px) {
+
+  .one p,
+  .col p,
+  .portfolio-row .portfolio-col {
+    min-width: 85vw;
+  }
+
+ }
+
 
 
 
