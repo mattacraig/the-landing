@@ -163,3 +163,40 @@ textarea::-webkit-input-placeholder {
   }
 
 }
+
+
+@media screen and (max-width: 830px) {
+  .five {
+    padding: 2rem 0;
+    height: auto;
+  }
+  .five-wrapper {
+    width: 100vw;
+  }
+
+  .form-input {
+    display: block;
+    text-align: center;
+  }
+
+  .five form input[type="text"],
+  .five form input[type="email"],
+  .five form textarea {
+    width: 90vw;
+  }
+
+  .five form input[type="text"],
+  .five form input[type="email"] {
+    margin-bottom: 1.125rem;
+    margin-right: 0;
+  }
+
+  .five form textarea {
+    margin-top: 0;
+  }
+
+  .five form .cta {
+    margin: 0;
+  }
+
+}
