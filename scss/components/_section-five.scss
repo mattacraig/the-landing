@@ -136,3 +136,30 @@ textarea::-webkit-input-placeholder {
   letter-spacing: 1px;
   font-weight: 300;
 }
+
+@media screen and (max-width: 1366px) {
+
+  .five {
+    padding: 2rem 0;
+  }
+
+  .five-wrapper {
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .contact-info {
+    display: none;
+  }
+
+}

@@ -478,6 +478,31 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   letter-spacing: 1px;
   font-weight: 300; }
 
+@media screen and (max-width: 1366px) {
+  .five {
+    padding: 2rem 0; }
+  .five-wrapper {
+    width: 80vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .contact-info {
+    display: none; } }
+
 .six {
   background: url('../../site/images/Layer-2-copy-5.png');
   background-repeat: no-repeat;
