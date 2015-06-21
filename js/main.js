@@ -10,4 +10,10 @@ $(document).on('ready', function() {
 
   });
 
+  $('.fa-navicon').on('click', function () {
+
+    $('.main-wrapper').toggleClass('nav-reveal');
+
+  });
+
 });

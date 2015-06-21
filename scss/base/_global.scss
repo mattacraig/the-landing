@@ -1,8 +1,20 @@
 // Global CSS goes here
 body {
   position: relative;
+  // overflow-x: hidden;
 }
 
+//
+// .main-wrapper {
+//   height: 100vh;
+//   width: 100%;
+//   overflow-y: scroll;
+//   transition: .5s transform;
+// }
+
+aside,
+.sidebar-nav,
+.sidebar-nav li,
 .main-nav,
 .row,
 footer,
@@ -14,10 +26,6 @@ section,
 .portfolio-col a,
 .social-icons,
 .footer-container {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   font-family: $font-primary;
 
@@ -81,6 +89,9 @@ header h3 {
   height: 50vh;
 }
 
+aside,
+.sidebar-nav,
+.sidebar-nav li,
 nav,
 .one,
 .two,
@@ -119,7 +130,7 @@ section h3,
 }
 
 section p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-secondary;
   font-size: 1.125em;
   letter-spacing: 1px;
   line-height: 1.75em;

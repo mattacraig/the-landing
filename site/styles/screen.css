@@ -34,12 +34,9 @@ table {
 body {
   position: relative; }
 
-.main-nav, .row, footer, header, nav, section, .five-wrapper, .portfolio-row, .portfolio-col a, .social-icons, .footer-container {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
+aside, .sidebar-nav, .sidebar-nav li, .main-nav, .row, footer, header, nav, section, .five-wrapper, .portfolio-row, .portfolio-col a, .social-icons, .footer-container {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-family: 'Lato', sans-serif; }
@@ -83,7 +80,7 @@ h1, header h3 {
 .one, .three, .six {
   height: 50vh; }
 
-nav, .one, .two, .three, .four, .five, .six, .row, .portfolio-row, .portfolio-col a, footer {
+aside, .sidebar-nav, .sidebar-nav li, nav, .one, .two, .three, .four, .five, .six, .row, .portfolio-row, .portfolio-col a, footer {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
