@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
 
-  $(window).on('scroll', function() {
+  $('.main-wrapper').on('scroll', function() {
 
       if($(this).scrollTop() >= ($('header').height() - $('nav').height())) {
         $('nav').addClass('scrolled');
@@ -12,7 +12,7 @@ $(document).on('ready', function() {
 
   $('.fa-navicon').on('click', function () {
 
-    $('.main-wrapper').toggleClass('nav-reveal');
+    $('.site-wrapper').toggleClass('nav-reveal');
 
   });
 
