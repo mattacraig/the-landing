@@ -52,6 +52,13 @@ nav.scrolled .main-nav li a:hover {
   color: $white;
 }
 
+.fa-navicon {
+  color: $white;
+  cursor: pointer;
+  display: none;
+  font-size: 1.7rem;
+}
+
 .header-content {
   text-align: center;
 }
@@ -73,4 +80,17 @@ header h3 {
 
 .cta:hover {
   background: $cta-light;
+}
+
+
+@media screen and (max-width: 1366px) {
+
+  .main-nav li:nth-child(n+2) {
+    display: none;
+  }
+
+  .fa-navicon {
+    display: inline-block;
+  }
+
 }

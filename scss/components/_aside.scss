@@ -9,6 +9,35 @@ aside {
   transform: translateX(75vw);
 }
 
+aside,
+.mobile-nav,
+.mobile-nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-primary;
+}
+
+.mobile-nav {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-nav li {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.mobile-nav li a {
+  color: $white;
+  display: inline-block;
+  padding: 3rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+
 .nav-reveal {
   transform: translateX(-75vw);
 }
