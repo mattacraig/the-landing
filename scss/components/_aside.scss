@@ -4,9 +4,14 @@ aside {
   right: 0;
   width: 75vw;
   height: 100vh;
-  background: $cta;
+  background: $section-heading-color;
   z-index: 1000;
+  transition: $hover-bg;
   transform: translateX(75vw);
+}
+
+.aside-scrolled {
+  background: $cta;
 }
 
 aside,

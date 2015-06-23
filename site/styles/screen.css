@@ -182,11 +182,16 @@ aside {
   right: 0;
   width: 75vw;
   height: 100vh;
-  background: #00b09c;
+  background: #333;
   z-index: 1000;
+  -webkit-transition: .3s background;
+          transition: .3s background;
   -webkit-transform: translateX(75vw);
       -ms-transform: translateX(75vw);
           transform: translateX(75vw); }
+
+.aside-scrolled {
+  background: #00b09c; }
 
 aside, .mobile-nav, .mobile-nav li {
   display: -webkit-box;

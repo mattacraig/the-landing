@@ -4,8 +4,11 @@ $(document).on('ready', function() {
 
       if($(this).scrollTop() >= ($('header').height() - $('nav').height())) {
         $('nav').addClass('scrolled');
+        $('aside').addClass('aside-scrolled');
       } else {
         $('nav').removeClass('scrolled');
+        $('aside').removeClass('aside-scrolled');
+
       }
 
   });
