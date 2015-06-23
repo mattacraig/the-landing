@@ -293,7 +293,8 @@ nav.scrolled .main-nav li a:hover {
   color: #fff;
   cursor: pointer;
   display: none;
-  font-size: 1.7rem; }
+  font-size: 1.7rem;
+  padding: 1rem; }
 
 .header-content {
   text-align: center; }
