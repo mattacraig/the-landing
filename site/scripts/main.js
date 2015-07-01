@@ -16,7 +16,10 @@ $(document).on('ready', function() {
   $('.fa-navicon').on('click', function () {
 
     $('.site-wrapper').toggleClass('nav-reveal');
+  });
 
+  $('.mobile-nav li a').on('click', function() {
+    $('.site-wrapper').removeClass('nav-reveal');
   });
 
 });
